@@ -35,9 +35,9 @@ public class PPMToolTasksApplication {
 				System.out.println("parameter length: " + strings.length);
 				
 				if(strings.length > 0){
-					String stationId = strings[1];
-					String licensePlate = strings[2];
-					String timestamp = strings[3];
+					String stationId = strings[0];
+					String licensePlate = strings[1];
+					String timestamp = strings[2];
 					
 					System.out.println("Station ID is " + stationId + ", plate is " + licensePlate + ", timestamp is " + timestamp);
 				}
