@@ -35,11 +35,15 @@ public class PPMToolTasksApplication {
 				System.out.println("parameter length: " + strings.length);
 				
 				if(strings.length > 0){
-					String stationId = strings[0];
-					String licensePlate = strings[1];
-					String timestamp = strings[2];
+					String pathSource = strings[0];
+					String pathSchemaDestiny = strings[1];
+					String pathDataDestiny = strings[2];
+					String pathSpecPrefix = strings[3];
+					String operationName = strings[4];
 					
-					System.out.println("Station ID is " + stationId + ", plate is " + licensePlate + ", timestamp is " + timestamp);
+					System.out.println("pathSource: " + pathSource +System.lineSeparator() + "pathSchemaDestiny: " + pathSchemaDestiny +System.lineSeparator() + "pathDataDestiny: " + pathDataDestiny);
+					System.out.println("pathSpecPrefix: " + pathSpecPrefix+System.lineSeparator() +"operationName: " + operationName );
+					
 				}
 			}
 			
